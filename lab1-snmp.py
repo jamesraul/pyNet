@@ -2,8 +2,8 @@
 
 from snmp_helper import snmp_extract, snmp_get_oid
 
-community_string = 'galileo'
-ip = '50.242.94.227'
+community_string = 'string'
+ip = '1.1.1.1'
 router1 = (ip, community_string, '7961')
 router2 = (ip, community_string, '8061')
 routers = (router1,router2)
